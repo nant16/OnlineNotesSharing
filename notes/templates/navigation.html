@@ -29,9 +29,9 @@
 
     <nav class="navbar">
         <ul>
-            <li><a class="active" href="{}">Home</a></li>
-            <li><a href="{}">About</a></li>
-            <li><a href="{}">Contact</a></li>
+            <li><a class="active" href="{% url 'index' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{%url 'contact' %}">Contact</a></li>
             <li><a href="{% url 'signup' %}">User Signup</a></li>
             <li><a href="{% url 'login' %}">User Login</a></li>
             <li><a href="{% url 'login_admin' %}">Admin Login</a></li>
